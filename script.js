@@ -25,7 +25,7 @@ function checkTime() {
 
     if (num < nowHour) {
       console.log("past");
-      taskTime.addClass("past");
+      $(this).addClass("past");
 
       //add .past class
     } else if (num > nowHour) {
