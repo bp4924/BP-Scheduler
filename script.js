@@ -9,7 +9,7 @@ let taskId = [9, 10, 11, 12, 13, 14, 15, 16, 17];
 console.log(today);
 
 function checkTime() {
-  var nowHour = 12;
+  var nowHour = 10;
   //  var nowHour = moment().format("hh");
   console.log(nowHour);
 
@@ -20,12 +20,12 @@ function checkTime() {
     var stringId = `#${stringI}`;
 
     console.log(stringId);
-    var taskTime = $("stringId");
+    var taskTime = $(stringId);
     console.log(taskTime); //returns null object. How can I return desired table row element?
 
     if (num < nowHour) {
       console.log("past");
-      $(this).addClass("past");
+      taskTime.addClass("past");
 
       //add .past class
     } else if (num > nowHour) {
