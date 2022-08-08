@@ -28,7 +28,6 @@ function checkTime() {
       //add past class
       console.log("past");
       taskTime.addClass("past");
-      // set textarea attribute to disabled -- input?
     } else if (num > nowHour) {
       // add future class
       console.log("future");

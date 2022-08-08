@@ -1,6 +1,35 @@
 # BP-Scheduler
 
 GT Code Bootcamp challenge 5
+Task
+Modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected.
+
+Prompt user to confirm or modify criteria
+
+Test that user input meets minimum requirements
+
+Test that result includes all selected options
+
+Dynamically update HTML & CSS using JavaScript
+
+Technologies employed
+Generate random whole numbers
+
+Select characters using fromCharCode method
+
+Media queries
+
+Flexbox
+
+CSS variables
+
+Responsive design
+
+Screenshot
+App Screenshot
+
+Link
+https://bp4924.github.io/BP-Scheduler/
 
 # 05 Third-Party APIs: Work Day Scheduler
 
