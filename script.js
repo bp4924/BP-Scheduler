@@ -1,10 +1,11 @@
 const currentDayEl = $("#currentDay");
 
 let stringId;
+let currentTime;
 let today = moment().format("dddd, MMMM Do YYYY");
 currentDayEl.text(today);
 
-let taskHour = [9, 10, 11, 12, 13, 14, 15, 16, 17];
+let taskHour = [9, 10, 11, 12, 13, 14, 15, 16];
 
 console.log(today);
 
@@ -17,7 +18,7 @@ function checkTime() {
     //generate stringID
     num = i + 9;
     var stringI = num.toString();
-    stringId = `#${stringI}`;
+    stringId = `#h${stringI}`;
     console.log(stringId);
 
     // find taskTime
@@ -55,8 +56,8 @@ function restoreItems() {
   for (let i = 0; i < taskHour.length; i++) {
     num = i + 9;
     var stringI = num.toString();
-    stringId = `task${stringI}`;
-    console.log(stringI);
+    stringId = `taskh${stringI}`;
+    console.log(stringId);
     var item = localStorage.getItem(stringId);
     console.log(item);
     var restoreText = document.getElementById(stringId);
