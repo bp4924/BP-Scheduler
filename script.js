@@ -10,8 +10,8 @@ let taskHour = [9, 10, 11, 12, 13, 14, 15, 16];
 console.log(today);
 
 function checkTime() {
-  //  var nowHour = 10; // hard-code nowHour for t/s purposes
-  var nowHour = moment().format("HH"); // get 24-hour clock #
+  var nowHour = 14; // hard-code nowHour for t/s purposes
+  //var nowHour = moment().format("HH"); // get 24-hour clock #
   console.log(nowHour);
 
   for (let i = 0; i < taskHour.length; i++) {

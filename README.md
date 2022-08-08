@@ -19,7 +19,8 @@ Media queries
 Responsive design
 
 Screenshot
-App Screenshot
+
+![App Screenshot](https://bp4924.github.io/BP-Scheduler/assets/ss1.jpg)
 
 Link
 https://bp4924.github.io/BP-Scheduler/
