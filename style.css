@@ -84,4 +84,12 @@ textarea {
   overflow: hidden;
   width: 100%;
   border: none;
+  background-color: inherit;
+}
+
+input {
+  overflow: hidden;
+  width: 100%;
+  border: none;
+  background-color: inherit;
 }
