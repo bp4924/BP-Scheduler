@@ -8,7 +8,7 @@ currentDayEl.text(today);
 let taskHour = [9, 10, 11, 12, 13, 14, 15, 16];
 
 function checkTime() {
-  var nowHour = moment().format("HH"); // get 24-hour clock #
+  var nowHour = "11"; //moment().format("HH"); // get 24-hour clock #
 
   for (let i = 0; i < taskHour.length; i++) {
     //generate stringID
