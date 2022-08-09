@@ -22,7 +22,8 @@ Responsive design
 
 ## Screenshot
 
-![App Screenshot](https://bp4924.github.io/BP-Scheduler/assets/ss1.jpg)
+![App Screenshot](https://bp4924.github.io/BP-Scheduler/Assets/ss1.jpg)
+
 
 ## Link
 
